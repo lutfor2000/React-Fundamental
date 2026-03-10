@@ -48,4 +48,36 @@ const Function = () => {
     );
 };
 export default Function;
+
+======================================Immediately Invoked Function/Name Behin Function==============================
+    const Function = () => {
+    const mark = 50;
+    return (
+        <div>
+            {(()=>{
+
+               if(mark >= 80 && mark <= 100){
+
+                return <h2>A+</h2>
+
+               }
+               else if(mark >= 60 && mark <=70){
+                
+                return <h2>A</h2>
+
+               }
+               else{
+
+                return <h2>F</h2>
+
+               }
+
+
+            })()}
+        </div>
+    );
+};
+
+export default Function;
+    
     
