@@ -94,3 +94,5 @@ export default Images;
 
 ==========================================Time Add =============================================
 <h2>{new Date().toLocaleString()}</h2>
+<h1 className='Bokachoda'>{2+3}</h1>
+         
