@@ -1,1 +1,15 @@
+WHY VITE
 
+01.
+
+Faster build times: Vitejs uses esbuild, which is a blazing fast compiler that can build projects in a fraction of the time that it takes other build tools.
+
+Hot reload: Vitejs has hot reload, which means that your code 02. will be updated in real time as you make changes, so you can see the results of your changes immediately
+
+Small bundle size: Vitejs bundles are typically much smaller
+
+03.
+
+than bundles created by other build tools, which can improve performance and reduce bandwidth usage.
+
+-------------------------------------------------End Vit-----------------------------------------------------------
