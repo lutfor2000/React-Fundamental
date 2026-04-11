@@ -16,3 +16,4 @@ than bundles created by other build tools, which can improve performance and red
 
 =========================================  What does npm run build do? ========================================================
 npm run build = final version (client/server-এ দেওয়ার জন্য)
+build = রান্না শেষে সুন্দরভাবে প্যাকেট করা
