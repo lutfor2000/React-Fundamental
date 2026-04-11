@@ -91,4 +91,6 @@ const Images = () => {
 };
 
 export default Images;
-    
+
+==========================================Time Add =============================================
+<h2>{new Date().toLocaleString()}</h2>
