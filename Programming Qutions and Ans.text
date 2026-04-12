@@ -1,2 +1,3 @@
 Array (অ্যারে) কী?
 অ্যারে হলো একটি ডাটা স্ট্রাকচার, যেখানে একই ধরনের একাধিক ডাটা একটি ভ্যারিয়েবলের মধ্যে ক্রম অনুযায়ী (index wise) সংরক্ষণ করা হয়।
+Array is a data structure where multiple values of the same type are stored in a single variable in an ordered way (index-wise).
