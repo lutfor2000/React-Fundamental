@@ -130,4 +130,18 @@ const LoginLogout = () => {
 
 export default LoginLogout;
 
+===============================login use One Conditions ======================================
+const status = true;
+
+const LoginLogout = () => {
+  
+       return(
+        <div>
+            {status && <button>Logout Button</button>}
+        </div>
+       )
+};
+
+export default LoginLogout;
+
 
