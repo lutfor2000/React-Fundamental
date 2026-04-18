@@ -1,6 +1,6 @@
 =>Props হলো parent component থেকে child component-এ data পাঠানোর একটি মাধ্যম।
 
-==========================Parent Component======================================
+1.==========================Parent Component======================================
 import Hero from "./components/Hero"
 function App() {
   return (
@@ -14,7 +14,7 @@ export default App
 
   
 
-==========================Child Component======================================
+1.==========================Child Component======================================
 const Hero = (props) => {
     return (
         <div>
@@ -26,7 +26,7 @@ const Hero = (props) => {
 
 export default Hero;
 
-==========================Object Passed Parent======================================
+2.==========================Object Passed Parent======================================
 function App() {
 
   const objectName ={
@@ -44,7 +44,7 @@ function App() {
 
 export default App
 
-==========================Object Passed Child======================================
+2.==========================Object Passed Child======================================
 const Hero = (props) => {
     
     return (
@@ -54,6 +54,35 @@ const Hero = (props) => {
                 <li>Age: {props.item['age']}</li>
                 <li>City: {props.item['city']}</li>
             </ul>
+        </div>
+    );
+};
+
+export default Hero;
+
+3.==========================Function Valu Passed Parent======================================
+function App() {
+
+const onBtnClick = ()=>{
+    alert("Submit Successfull !");
+}
+
+  return (
+    <>
+      <Hero childBtn ={onBtnClick}/>
+    </>
+  )
+}
+
+export default App
+
+3.==========================Function Valu Passed Child======================================
+
+const Hero = (props) => {
+    
+    return (
+        <div>
+            <button onClick={props.childBtn}>Submit Document</button>
         </div>
     );
 };
