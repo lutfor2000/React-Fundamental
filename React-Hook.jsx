@@ -1,3 +1,12 @@
+React Hook কী?
+
+React Hook হলো React-এর একটি বিশেষ ফিচার, যা Function Component-এর ভিতরে state, lifecycle এবং অন্যান্য React feature ব্যবহার করতে সাহায্য করে—Class Component ছাড়া।
+
+🔹 সহজভাবে বুঝলে
+
+আগে React-এ state বা lifecycle ব্যবহার করতে হলে Class Component লাগত।
+Hook আসার পর Function Component দিয়েই সব করা যায়।
+
 01. React Hook is a feature in the React library that allows developers to use state and other React features in functional components, which were previously only available in class components.
 
 02. It was introduced in React version 16.8.
@@ -17,4 +26,5 @@
 ০৪. রিয়্যাক্টের দেওয়া বেশ কিছু বিল্ট-ইন হুক রয়েছে, যেমন useState, useEffect, useContext, এবং useRef।
 
 ০৫. রিয়্যাক্ট হুকস রিয়্যাক্টে ডেভেলপমেন্ট প্রক্রিয়াকে অনেক সহজ করে দিয়েছে এবং পুনঃব্যবহারযোগ্য ও কম্পোজেবল কোড লেখা আরও সহজ করে তুলেছে।
+
 
