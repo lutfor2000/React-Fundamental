@@ -59,3 +59,24 @@ const Hero = () => {
 
 export default Hero;
 
+=============================== image Property Change  useRef()=====================================
+import { useRef } from "react";
+
+const Hero = () => {
+
+    const myImage = useRef();
+  
+    const change = ()=>{
+       myImage.current.src="https://images.pexels.com/photos/5380610/pexels-photo-5380610.jpeg";
+    }
+
+    return (
+        <div>
+           <img ref={myImage} style={{width:"500px"}} src="https://images.pexels.com/photos/18069157/pexels-photo-18069157.png"  />
+           <button onClick={change}>Click Me</button>
+        </div>
+    );
+};
+
+export default Hero;
+
