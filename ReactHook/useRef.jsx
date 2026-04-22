@@ -78,3 +78,28 @@ const Hero = () => {
 };
 
 export default Hero;
+
+===============================useRef() bootstrap class change=====================================
+import { useRef } from "react";
+
+const Hero = () => {
+
+    let headerOne = useRef();
+
+    const change =()=>{
+        
+        headerOne.current.classList.remove('text-success');
+        headerOne.current.classList.add('text-warning');
+        
+    }
+   
+    return (
+        <div>
+           
+           <h1 ref={headerOne} className="text-success">This is Bangladesh</h1>
+           <button class="btn btn-primary" onClick={change}>Click Me</button>
+        </div>
+    );
+};
+
+export default Hero;
