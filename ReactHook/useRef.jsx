@@ -103,3 +103,28 @@ const Hero = () => {
 };
 
 export default Hero;
+
+===============================useRef() bootstrap class change=====================================
+   
+import { useRef } from "react";
+
+const Hero = () => {
+
+    let number = useRef(0);
+
+    const change =()=>{
+        number.current++;
+        console.log('number.current');
+        
+       
+        
+    }
+   
+    return (
+        <div>
+           <button class="btn btn-primary" onClick={change}>Click Me</button>
+        </div>
+    );
+};
+
+export default Hero;
