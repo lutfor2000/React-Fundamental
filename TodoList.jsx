@@ -5,14 +5,14 @@ const TodoApp = () => {
     const [item,setItem] = useState("")
 
     const addToList = ()=>{
-        if (item.trim() === "") return;
+        if (item.trim() === "") return; //ফাঁকা হলে add হবে না
         list.push(item)
         setList([...list])
     }
 
     const removeItem = (index)=>{
-       list.splice(index,1)
-       setItem([...list])
+       list.splice(index,1) // item add
+       setItem([...list]) //input clear
     }
 
     return (
