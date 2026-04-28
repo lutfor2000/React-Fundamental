@@ -57,3 +57,17 @@ const TodoApp = () => {
 };
 
 export default TodoApp;
+
+
+
+=========================Last data First A Show korbe==================
+    const addToList = () =>{
+        if(item.trim() === "") return;
+
+         setList([item, ...list]);
+         setItem("");
+        // list.push(item)
+        // setList([item, ...list])
+        // setItem("");
+
+      }
