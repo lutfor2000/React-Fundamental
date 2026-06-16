@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+
+        <h1>Mordan JavaScript</h1>
+
+        <div>
+            <input type="text" class="search">
+            <p class="display"></p>
+            <p class="thanks"></p>
+        </div>
+
+    </div>
+
+
+    <script>
+        const searchInput =  document.querySelector('.search')
+        const display = document.querySelector('.display')
+        const thanks = document.querySelector('.thanks')
+        
+        searchInput.addEventListener('keyup',show)
+        
+        function show(){
+          
+          display.innerHTML = this.value;
+          
+          setTimeout(()=>{
+          thanks.innerHTML = `Thanks for typing: ${this.value}`
+          },2000)
+        
+        }
+    </script>
+  
+</body>
+</html>
