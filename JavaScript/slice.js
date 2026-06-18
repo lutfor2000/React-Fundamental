@@ -7,3 +7,4 @@ console.log(result);
 //slice() original array change করে না ✅
 //নতুন array return করে ✅
 //slice() → array থেকে copy নেয়
+//Array এর একটি অংশ কেটে নতুন array তৈরি করে
