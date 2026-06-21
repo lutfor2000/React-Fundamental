@@ -78,3 +78,16 @@ const count = fruits.reduce((acc, fruit) => {
 
 console.log(count);
 // { apple: 2, banana: 2, orange: 1 }
+
+//========product total price add============
+const products = [
+  { name: "Mobile", price: 15000 },
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 1000 }
+];
+
+const totalPrice = products.reduce((total, product) => {
+  return total + product.price;
+}, 0);
+
+console.log(totalPrice);
