@@ -79,6 +79,9 @@ const count = fruits.reduce((acc, fruit) => {
 console.log(count);
 // { apple: 2, banana: 2, orange: 1 }
 
+
+
+
 //========product total price add============
 const products = [
   { name: "Mobile", price: 15000 },
@@ -91,3 +94,14 @@ const totalPrice = products.reduce((total, product) => {
 }, 0);
 
 console.log(totalPrice);
+
+
+
+//===========Max Price select============
+const numbers = [5, 20, 8, 15];
+
+const max = numbers.reduce((largest, current) => {
+  return current > largest ? current : largest;
+});
+
+console.log(max);
