@@ -3,7 +3,7 @@ create folder cmd -  mkdir server
 
 at first -npm init
 backend:
-"beryptis": "^2.4.3", I
+"bcryptjs": "^2.4.3", I
 "cloudinary": "^2.4.0",
 "cookie-parser": "^1.4.6",
 "cors": "^2.8.5",
@@ -16,7 +16,7 @@ backend:
 "nodemon": "^3.1.4",
 "npm": "^10.8.2"
 
-==========> npm i beryptis cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose multer nodemon
+==========>npm i bcryptjs cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose multer nodemon
 
 frontend:
 "@reduxjs/toolkit": "^2.2.7",
