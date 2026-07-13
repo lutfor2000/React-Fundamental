@@ -1,7 +1,7 @@
 at first - npm create vite@latest client
 create folder cmd -  mkdir server
 
-
+at first -npm init
 backend:
 "beryptis": "^2.4.3", I
 "cloudinary": "^2.4.0",
@@ -15,6 +15,8 @@ backend:
 "multer": "^1.4.5-lts.1",
 "nodemon": "^3.1.4",
 "npm": "^10.8.2"
+
+==========> npm i beryptis cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose multer nodemon
 
 frontend:
 "@reduxjs/toolkit": "^2.2.7",
