@@ -35,3 +35,4 @@ frontend:
 "tailwindcss-animate": "^1.0.7"
 
 ==========> npm i @reduxjs/toolkit react-redux axios react-router-dom 
+====> npx shadcn@latest init
