@@ -1,6 +1,9 @@
 at first - npm create vite@latest client
 create folder cmd -  mkdir server
 
+
+ui design  => https://ui.shadcn.com/docs/installation/vite
+
 at first -npm init
 backend:
 "bcryptjs": "^2.4.3", I
@@ -30,3 +33,5 @@ frontend:
 "react-router-dom": "^6.26.1",
 "tailwind-merge": "^2.5.2",
 "tailwindcss-animate": "^1.0.7"
+
+==========> npm i @reduxjs/toolkit react-redux axios react-router-dom 
