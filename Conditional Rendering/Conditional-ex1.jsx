@@ -15,6 +15,17 @@ const Item = ({name,isPacked})=>{
 
 }
 
+//=====Or=======
+const Item = ({name,isPacked})=>{
+
+    const jsxToRender =  isPacked ? ( <del>{name + "✅"}</del>) : (<li className="bg-green-400">{name}</li>)
+
+    return(
+       <div className="w-80 m-auto mt-3"> <li> {jsxToRender}</li> </div>
+
+    )
+    
+}
 
 //=====Next Page=========
 import Item from "./Item"
