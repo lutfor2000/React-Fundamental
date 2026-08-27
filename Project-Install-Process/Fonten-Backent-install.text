@@ -4,7 +4,7 @@ create folder cmd -  mkdir server
 
 ui design  => https://ui.shadcn.com/docs/installation/vite
 
-at first -npm init
+at first -npm init -y
 backend:
 "bcryptjs": "^2.4.3", I
 "cloudinary": "^2.4.0",
