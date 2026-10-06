@@ -123,3 +123,33 @@ const FormObj = () => {
 };
 
 export default FormObj;
+
+
+
+//========Complex=======
+const [person, setPerson] = useState({
+        firstName: 'Barbara',
+        lastName: 'Hepworth',
+        email: 'bhepworth@sculpture.com',
+
+        artwork: {
+          title: 'Blue Nana',
+          city: 'Hamburg',
+          image: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
+      }
+
+            
+ function handleEmailChange(e) {
+        setPerson({
+            ...person,
+            artwork :{
+              ...person.artwork,
+              city : e.target.value
+            }
+        });
+    }
+
+ <input
+  value={person.artwork.city}
+  onChange={handleEmailChange}         
+/>
